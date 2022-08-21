@@ -40,8 +40,20 @@ body {
 .navigation:focus {
   color: var(--selectionColor);
 }
+.agency {
+  color: #2196f3;
+}
+.portfolio {
+  color: #212121;
+}
+.contacts {
+  color: #212121;
+}
 .email-head {
   color: var(--fontColorGrey);
+}
+.email-head:hover {
+  color: #2196f3;
 }
 .calling-head {
   color: var(--fontColorGrey);
