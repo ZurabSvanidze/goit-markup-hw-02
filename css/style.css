@@ -19,6 +19,7 @@ body {
   line-height: 1.19;
   color: var(--selectionColor);
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .studio-logo-color-head {
   color: #000000;
@@ -34,29 +35,56 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation:hover {
-  color: var(--selectionColor);
-}
-.navigation:focus {
-  color: var(--selectionColor);
-}
+
 .agency {
-  color: #2196f3;
+  color: #212121;
+  text-decoration: none;
+}
+.agency:focus {
+  color: var(--selectionColor);
+}
+.agency:hover {
+  color: var(--selectionColor);
 }
 .portfolio {
   color: #212121;
+  text-decoration: none;
+}
+.portfolio:focus {
+  color: var(--selectionColor);
+}
+.portfolio:hover {
+  color: var(--selectionColor);
 }
 .contacts {
   color: #212121;
+  text-decoration: none;
+}
+.contacts:focus {
+  color: var(--selectionColor);
+}
+.contacts:hover {
+  color: var(--selectionColor);
 }
 .email-head {
   color: var(--fontColorGrey);
+  text-decoration: none;
 }
 .email-head:hover {
   color: #2196f3;
 }
+.email-head:focus {
+  color: var(--selectionColor);
+}
 .calling-head {
   color: var(--fontColorGrey);
+  text-decoration: none;
+}
+.calling-head:hover {
+  color: var(--selectionColor);
+}
+.calling-head:focus {
+  color: var(--selectionColor);
 }
 /* ================= Main========================== */
 
@@ -152,8 +180,17 @@ footer {
   line-height: 1.71;
   color: var(--colorWhite);
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .email-foot {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.email-foot-port {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
@@ -167,6 +204,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 /* ====================Portfolio================= */
 .filter-button {
