@@ -177,6 +177,7 @@ footer {
 .address {
   font-family: 'Roboto';
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--colorWhite);
   letter-spacing: 0.03em;
@@ -190,12 +191,11 @@ footer {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.email-foot-port {
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  letter-spacing: 0.03em;
+.email-foot:hover {
+  color: #2196f3;
+}
+.email-foot:focus {
+  color: var(--selectionColor);
 }
 .calling-foot {
   font-family: 'Roboto';
@@ -242,4 +242,10 @@ footer {
   line-height: 1.87;
   color: var(--fontColorGrey);
   letter-spacing: 0.03em;
+}
+.calling-foot:hover {
+  color: var(--selectionColor);
+}
+.calling-foot:focus {
+  color: var(--selectionColor);
 }
